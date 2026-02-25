@@ -14,6 +14,8 @@ Battery's internal impedance from multiple discharges, using a multilevel model 
 
 Battery's internal impedance from multiple discharges, using a multilevel model with clustering on both cells and cycles at the same time.
 
+Bayesian multilevel model of the battery cells temperature evolution during a discharge cycle, with partial pooling of information.
+
 Bayesian model comparison using leave-one-out cross-validation.
 
 Bayesian models of battery cells discharge measurements using Gaussian process regression:
