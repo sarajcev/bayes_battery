@@ -18,11 +18,8 @@ Bayesian multilevel model of the battery cells temperature evolution during a di
 
 Bayesian model comparison using leave-one-out cross-validation.
 
-Bayesian models of battery cells discharge measurements using Gaussian process regression:
+Bayesian models of battery cells discharge measurements using Gaussian process (GP) regression:
 
-- battery impedance regression using GP and temperature measurements,
-- incorporating measurements uncertainty or errors,
-- exploring different correlation structures of the GP kernels, from:
-	* battery geometry (cell distances),
-	* cell connections resistances,
-	* connections graph structure.
+- battery mean temperature spatial distribution using the GP with a Matern kernels,
+
+- battery impedance regression using the GP and temperature measurements, incorporating measurements uncertainty or errors, while exploring different correlation structures of the GP kernels, from: battery geometry (cell distances), cell connections resistances and connections graph structure.
