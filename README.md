@@ -3,8 +3,9 @@
 Battery's internal impedance from multiple discharges, using a multilevel model with clustering on cells: 
 
 - complete pooling: all data is lumped together,
-- no pooling model: treats each cell as completely independent from others,
-- partial pooling: recognizes each individual cell, but all cells share information through the higher level model structure.
+- no pooling model (ordinary and robust versions): treats each cell as completely independent from others,
+- partial pooling (ordinary and robust version): recognizes each individual cell, but all cells share information through the higher level model structure,
+- assessing data outlier(s) influence.
 
 Battery's internal impedance from multiple discharges, using a multilevel model with clustering on discharge cycles:
 
